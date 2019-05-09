@@ -25,6 +25,10 @@ public class HomeController {
     public String bananabread(){
         return "bananabread";
     }
+    @RequestMapping("/chocolatechipcookie")
+    public String chocolatechipcookie(){
+        return "chocolatechipcookie";
+    }
     @RequestMapping("/form")
     public String form(){
         return "form";

@@ -1,0 +1,31 @@
+
+header {
+    text-align: center;
+    padding-top: .5%;
+    padding-bottom: 2%;
+}
+
+header h1{
+    font-size: 4em;
+}
+
+#ingredients h4 {
+    font-size: 2em;
+
+}
+#ingredients ul {
+    font-size: 1.5em;
+}
+
+#directions h4 {
+    font-size: 2em;
+}
+#directions ol {
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+}
+
