@@ -2,9 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>index</title>
+
+    <style>
+        body {
+            background-color: papayawhip;
+        }
+
+        #full {
+            width: 75%;
+            text-align: center;
+            margin: 0 auto;
+            background-color: antiquewhite;
+
+        }
+
+        hr {
+            width: 75%;
+            border-color: #efc19b;
+        }
+
+        header {
+            padding-top: .5%;
+            padding-bottom: 2%;
+            font-size: 4em;
+        }
+
+        #recipes h4 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            color: #4c280a;
+        }
+
+        #recipes dl{
+            font-size: 1.5em;
+        }
+        #recipes a:link {
+            color: goldenrod;
+        }
+        #recipes a:hover {
+            color: gold;
+        }
+    </style>
+
 </head>
 <body>
-    <h2>Hello World!</h2>
+    <div id="full">
+        <header>
+            <h2>Cookbook</h2>
+        </header>
+        <div id="recipes">
+            <section id="breakfast">
+                <h4><em>Pancakes</em></h4>
+                <dl>
+                    <dt><a href="/pancakes">Pancakes</a></dt>
+                    <dd>This is a recipe for pancakes</dd>
+                </dl>
+                <hr />
+            </section>
+            <section id="seafood">
+                <h4><em>Seafood</em></h4>
+                <dl>
+                    <dt><a href="/crabcake">Crabcakes</a></dt>
+                    <dd>This is a recipe for crabcakes</dd>
+                </dl>
+                <hr />
+            </section>
+            <section id="breads">
+                <h4><em>Breads</em></h4>
+                <dl>
+                    <dt><a href="/bananabread">Hawaiian Banana Nut Bread</a></dt>
+                    <dd>This is a recipe for Hawaiian Banana Nut Bread</dd>
+                </dl>
+                <hr />
+            </section>
+            <section id="desserts">
+                <h4><em>Desserts</em></h4>
+                <dl>
+                    <dt><a href="/applepie">Apple Pie</a></dt>
+                    <dd>This is a recipe for Apple Pie</dd>
+                </dl>
+                <hr />
+            </section>
+        </div>
+    </div>
 </body>
 </html>

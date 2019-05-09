@@ -9,8 +9,28 @@ public class HomeController {
     public String homepage(){
         return "index";
     }
-    @RequestMapping("/recipe")
-    public String recipe(){
-        return "recipe.html";
+    @RequestMapping("/pancakes")
+    public String pancakes(){
+        return "pancakes";
+    }
+    @RequestMapping("/crabcake")
+    public String crabcake(){
+        return "crabcake";
+    }
+    @RequestMapping("/applepie")
+    public String applepie(){
+        return "applepie";
+    }
+    @RequestMapping("/bananabread")
+    public String bananabread(){
+        return "bananabread";
+    }
+    @RequestMapping("/form")
+    public String form(){
+        return "form";
+    }
+    @RequestMapping("/table")
+    public String table(){
+        return "table";
     }
 }
